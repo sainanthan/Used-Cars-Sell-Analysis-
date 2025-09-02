@@ -5,97 +5,95 @@
 This project analyzes a Used Car Sales Dataset to uncover insights about car brands, fuel types, transmission, ownership, accident history, and pricing trends.
 The project is completed in 4 phases:
 
-Data Cleaning & Preprocessing (Python / Pandas)
+1.Data Cleaning & Preprocessing (Python / Pandas)
 
-Exploratory Data Analysis (EDA)
+2.Exploratory Data Analysis (EDA)
 
-Insights & Comparisons
+3.Insights & Comparisons
 
-Interactive Power BI Dashboard
+4.Interactive Power BI Dashboard
 
-The final output is a multi-page Power BI dashboard that provides deep insights into the used car market.
+5.The final output is a multi-page Power BI dashboard that provides deep insights into the used car market.
 
 # 📂 Dataset
 
-Source: Provided CSV dataset (Used Car Sales).
+->Source: Provided CSV dataset (Used Car Sales).
 
-Rows: ~140k
+->Rows: ~140k
 
-Columns: Brand, Model, Variant, Car Type, Transmission, Fuel Type, Year, Kilometers, Owner, State, Accidental, Price.
+->Columns: Brand, Model, Variant, Car Type, Transmission, Fuel Type, Year, Kilometers, Owner, State, Accidental, Price.
 
 # ⚙️ Phase 1: Data Cleaning
 
-Checked for null values → No missing data.
+1.Checked for null values → No missing data.
 
-Detected & handled outliers (Price had 1820 outliers).
+2.Detected & handled outliers (Price had 1820 outliers).
 
-Cleaned data for consistency (e.g., Fuel Type, Transmission categories).
+3.Cleaned data for consistency (e.g., Fuel Type, Transmission categories).
 
 # 🔎 Phase 2: Exploratory Data Analysis (EDA)
 
-Top Car Brand → Maruti Suzuki (54,030 cars).
+1.Top Car Brand → Maruti Suzuki (54,030 cars).
 
-Most Common Car Type → Hatchback (55,890 cars).
+2.Most Common Car Type → Hatchback (55,890 cars).
 
-Fuel Type Majority → Petrol (79,187 cars).
+3.Fuel Type Majority → Petrol (79,187 cars).
 
-Most Common Transmission → Manual (119,793 cars).
+4.Most Common Transmission → Manual (119,793 cars).
 
-Kilometer Stats: Avg ~95,000 km.
+5.Kilometer Stats: Avg ~95,000 km.
 
-Outliers detected mainly in Price, not in Kilometers.
+6.Outliers detected mainly in Price, not in Kilometers.
 
 # 📊 Phase 3: Insights & Comparisons
 
-Automatic cars are ~9.8% more expensive than Manual (for Petrol cars).
+1.Automatic cars are ~9.8% more expensive than Manual (for Petrol cars).
 
-Hybrid & Electric cars have highest average prices.
+2.Hybrid & Electric cars have highest average prices.
 
-First-owner cars have higher resale value compared to multiple-owner cars.
+3.First-owner cars have higher resale value compared to multiple-owner cars.
 
-Accidental cars are fewer and tend to have lower prices.
+4.Accidental cars are fewer and tend to have lower prices.
 
 # 📈 Phase 4: Power BI Dashboard
 
-The dashboard has 5 pages:
+The dashboard has 3 pages:
 
-📄 Page 1: Brand & Car Type Analysis
+# 📄 Page 1: Brand & Car Type Analysis
 
-Top 5 Car Brands by sales.
+->Top 5 Car Brands by sales.
 
-Distribution of Car Types (Hatchback, Sedan, SUV, etc.).
+->Distribution of Car Types (Hatchback, Sedan, SUV, etc.).
 
-📄 Page 2: Transmission & Fuel Insights
+# 📄 Page 2: Transmission & Fuel Insights
 
-Transmission split (Manual vs Automatic).
+->Transmission split (Manual vs Automatic).
 
-Fuel type distribution.
+->Fuel type distribution.
 
-Avg Price by Fuel & Transmission.
+->Avg Price by Fuel & Transmission.
 
-📄 Page 3: Price Distribution
+# 📄 Page 3: Price Distribution
 
-Avg Price by Car Type.
+->Avg Price by Car Type.
 
-Top 10 Most Expensive Brands.
-
-Outlier price analysis.
+->Top 10 Most Expensive Brands.
 
 # 🛠️ Tools & Technologies
 
-Python (Pandas, NumPy, Matplotlib, Seaborn) → Data cleaning & EDA.
+1.Python (Pandas, NumPy, Matplotlib, Seaborn) → Data cleaning & EDA.
 
-Power BI → Dashboard creation & visualization.
+2.Power BI → Dashboard creation & visualization.
 
-GitHub → Version control & project showcase.
+3.GitHub → Version control & project showcase.
 
 
 # 📢 Key Learnings
 
-Handling large datasets (~140k rows).
+1.Handling large datasets (~140k rows).
 
-Performing EDA with outlier detection.
+2.Performing EDA with outlier detection.
 
-Building interactive dashboards in Power BI.
+3.Building interactive dashboards in Power BI.
 
-Writing data-driven business insights.
+4.Writing data-driven business insights.
